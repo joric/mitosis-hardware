@@ -1,0 +1,924 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "mitosis-SchDoc"
+Date "21 09 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4000 5000 4000 4400
+Wire Wire Line
+	4000 5600 4000 5000
+Wire Wire Line
+	4000 6200 4000 5600
+Wire Wire Line
+	4000 6800 4000 6200
+Wire Wire Line
+	4000 7400 4000 6800
+Wire Wire Line
+	5400 7400 4000 7400
+Wire Wire Line
+	6800 7400 5400 7400
+Wire Wire Line
+	8200 7400 6800 7400
+Wire Wire Line
+	9600 7400 8200 7400
+Wire Wire Line
+	9600 5600 9600 7400
+Wire Wire Line
+	9600 5000 9600 5600
+Wire Wire Line
+	9600 4400 9600 5000
+Wire Wire Line
+	5400 5000 5400 4400
+Wire Wire Line
+	5400 5600 5400 5000
+Wire Wire Line
+	5400 6200 5400 5600
+Wire Wire Line
+	5400 6800 5400 6200
+Wire Wire Line
+	5400 7400 5400 6800
+Wire Wire Line
+	6800 5000 6800 4400
+Wire Wire Line
+	6800 5600 6800 5000
+Wire Wire Line
+	6800 6200 6800 5600
+Wire Wire Line
+	6800 6800 6800 6200
+Wire Wire Line
+	6800 7400 6800 6800
+Wire Wire Line
+	8200 5000 8200 4400
+Wire Wire Line
+	8200 5600 8200 5000
+Wire Wire Line
+	8200 6200 8200 5600
+Wire Wire Line
+	8200 6800 8200 6200
+Wire Wire Line
+	8200 7400 8200 6800
+Text Label 4500 7400 0 70 ~
+GND
+Text Label 4800 4400 0 70 ~
+S1
+Text Label 4800 5000 0 70 ~
+S6
+Text Label 4800 5600 0 70 ~
+S11
+Text Label 4800 6200 0 70 ~
+S16
+Text Label 4800 6800 0 70 ~
+S20
+Text Label 6200 4400 0 70 ~
+S2
+Text Label 6200 5000 0 70 ~
+S7
+Text Label 6200 5600 0 70 ~
+S12
+Text Label 6200 6200 0 70 ~
+S17
+Text Label 6200 6800 0 70 ~
+S21
+Text Label 7600 4400 0 70 ~
+S3
+Text Label 7600 5000 0 70 ~
+S8
+Text Label 7600 5600 0 70 ~
+S13
+Text Label 7600 6200 0 70 ~
+S18
+Text Label 7600 6800 0 70 ~
+S22
+Text Label 9000 4400 0 70 ~
+S4
+Text Label 9000 5000 0 70 ~
+S9
+Text Label 9000 5600 0 70 ~
+S14
+Text Label 9000 6200 0 70 ~
+S19
+Text Label 9000 6800 0 70 ~
+S23
+Text Label 10400 4400 0 70 ~
+S5
+Text Label 10400 5000 0 70 ~
+S10
+Text Label 10400 5600 0 70 ~
+S15
+Wire Wire Line
+	5000 4400 4700 4400
+Wire Wire Line
+	5000 5000 4700 5000
+Wire Wire Line
+	5000 5600 4700 5600
+Wire Wire Line
+	5000 6200 4700 6200
+Wire Wire Line
+	5000 6800 4700 6800
+Wire Wire Line
+	6400 4400 6100 4400
+Wire Wire Line
+	6400 5000 6100 5000
+Wire Wire Line
+	6400 5600 6100 5600
+Wire Wire Line
+	6400 6200 6100 6200
+Wire Wire Line
+	6400 6800 6100 6800
+Wire Wire Line
+	7800 4400 7500 4400
+Wire Wire Line
+	7800 5000 7500 5000
+Wire Wire Line
+	7800 5600 7500 5600
+Wire Wire Line
+	7800 6200 7500 6200
+Wire Wire Line
+	7800 6800 7500 6800
+Wire Wire Line
+	9200 4400 8900 4400
+Wire Wire Line
+	9200 5000 8900 5000
+Wire Wire Line
+	9200 5600 8900 5600
+Wire Wire Line
+	9200 6200 8900 6200
+Wire Wire Line
+	9200 6800 8900 6800
+Wire Wire Line
+	10600 4400 10300 4400
+Wire Wire Line
+	10600 5000 10300 5000
+Wire Wire Line
+	10600 5600 10300 5600
+$Comp
+L VCC #PWR?59C3E680
+U 1 1 59C3E680
+P 900 7700
+F 0 "VCC" H 900 7700 20  0000 C CNN
+F 1 "+VCC" H 900 7630 30  0000 C CNN
+F 2 "" H 900 7700 70  0000 C CNN
+F 3 "" H 900 7700 70  0000 C CNN
+	1    900 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?59C3E67F
+U 1 1 59C3E67F
+P 900 8000
+F 0 "GND" H 900 8140 20  0000 C CNN
+F 1 "+GND" H 900 8110 30  0000 C CNN
+F 2 "" H 900 8000 70  0000 C CNN
+F 3 "" H 900 8000 70  0000 C CNN
+	1    900 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900 8000 900 7900
+Wire Wire Line
+	900 9500 500 9500
+Wire Wire Line
+	900 9600 500 9600
+Text Label 500 9500 0 70 ~
+SWCLK
+Text Label 500 9600 0 70 ~
+SWDIO
+$Comp
+L VCC #PWR?59C3E67E
+U 1 1 59C3E67E
+P 900 4300
+F 0 "VCC_2" H 900 4300 20  0000 C CNN
+F 1 "+VCC" H 900 4230 30  0000 C CNN
+F 2 "" H 900 4300 70  0000 C CNN
+F 3 "" H 900 4300 70  0000 C CNN
+	1    900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?59C3E67D
+U 1 1 59C3E67D
+P 900 4600
+F 0 "GND_2" H 900 4740 20  0000 C CNN
+F 1 "+GND" H 900 4710 30  0000 C CNN
+F 2 "" H 900 4600 70  0000 C CNN
+F 3 "" H 900 4600 70  0000 C CNN
+	1    900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900 4600 900 4500
+Wire Wire Line
+	900 6100 500 6100
+Wire Wire Line
+	900 6200 500 6200
+Text Label 500 6100 0 70 ~
+SWCLK
+Text Label 500 6200 0 70 ~
+SWDIO
+Wire Wire Line
+	2800 6900 2500 6900
+Wire Wire Line
+	2500 6800 2800 6800
+Wire Wire Line
+	2800 6700 2500 6700
+Wire Wire Line
+	2500 6600 2800 6600
+Wire Wire Line
+	2800 6500 2500 6500
+Wire Wire Line
+	2500 6400 3200 6400
+Wire Wire Line
+	2800 6300 2500 6300
+Wire Wire Line
+	2500 6200 2800 6200
+Wire Wire Line
+	2500 6000 2800 6000
+Wire Wire Line
+	2800 5900 2500 5900
+Wire Wire Line
+	2500 5800 2800 5800
+Wire Wire Line
+	2800 5700 2500 5700
+Wire Wire Line
+	2500 5600 2800 5600
+Wire Wire Line
+	2800 5500 2500 5500
+Wire Wire Line
+	2500 5400 2800 5400
+Wire Wire Line
+	2500 5000 2800 5000
+Wire Wire Line
+	2800 4900 2500 4900
+Wire Wire Line
+	2500 4800 2800 4800
+Wire Wire Line
+	2800 4700 2500 4700
+Wire Wire Line
+	2500 4600 2800 4600
+Wire Wire Line
+	2800 4500 2500 4500
+Wire Wire Line
+	2500 4400 2800 4400
+Wire Wire Line
+	2800 4300 2500 4300
+Wire Wire Line
+	2500 4200 2800 4200
+Wire Wire Line
+	2800 4100 2500 4100
+Text Label 2600 5100 0 70 ~
+S19
+Text Label 2600 5400 0 70 ~
+S17
+Text Label 2600 5500 0 70 ~
+S18
+Text Label 2600 5600 0 70 ~
+S20
+Text Label 2600 5700 0 70 ~
+S16
+Text Label 2600 5800 0 70 ~
+S21
+Text Label 2600 5900 0 70 ~
+S22
+Text Label 2600 6000 0 70 ~
+S23
+Text Label 2600 6200 0 70 ~
+S15
+Text Label 2600 6300 0 70 ~
+W23
+Text Label 3000 6400 0 70 ~
+LED
+Text Label 2600 6500 0 70 ~
+S4
+Text Label 2600 6600 0 70 ~
+W26
+Text Label 2600 6700 0 70 ~
+S5
+Text Label 2600 6800 0 70 ~
+S10
+Wire Wire Line
+	2800 10300 2500 10300
+Wire Wire Line
+	2500 8800 2800 8800
+Wire Wire Line
+	2800 8900 2500 8900
+Wire Wire Line
+	2800 9000 2500 9000
+Wire Wire Line
+	2500 9200 3200 9200
+Wire Wire Line
+	2800 9300 2500 9300
+Wire Wire Line
+	2500 9400 2800 9400
+Wire Wire Line
+	2500 9600 2800 9600
+Wire Wire Line
+	2800 9700 2500 9700
+Wire Wire Line
+	2500 9800 2800 9800
+Wire Wire Line
+	2800 10000 2500 10000
+Wire Wire Line
+	2500 9900 2800 9900
+Wire Wire Line
+	2800 10100 2500 10100
+Wire Wire Line
+	2500 10200 2800 10200
+Wire Wire Line
+	2800 8500 2500 8500
+Wire Wire Line
+	2500 8400 2800 8400
+Wire Wire Line
+	2800 8300 2500 8300
+Wire Wire Line
+	2500 8200 2800 8200
+Wire Wire Line
+	2800 8100 2500 8100
+Wire Wire Line
+	2500 8000 2800 8000
+Wire Wire Line
+	2800 7900 2500 7900
+Wire Wire Line
+	2500 7800 2800 7800
+Wire Wire Line
+	2800 7700 2500 7700
+Wire Wire Line
+	2500 7600 2800 7600
+Wire Wire Line
+	2800 7500 2500 7500
+Text Label 2600 10200 0 70 ~
+S17
+Text Label 2600 10100 0 70 ~
+S18
+Text Label 2600 9900 0 70 ~
+S20
+Text Label 2600 10000 0 70 ~
+S16
+Text Label 2600 9800 0 70 ~
+S21
+Text Label 2600 9700 0 70 ~
+S22
+Text Label 2600 9600 0 70 ~
+S23
+Text Label 2600 9400 0 70 ~
+S15
+Text Label 2600 9300 0 70 ~
+W23
+Text Label 3000 9200 0 70 ~
+LED
+Text Label 2600 9000 0 70 ~
+S4
+Text Label 2600 9100 0 70 ~
+W26
+Text Label 2600 8900 0 70 ~
+S5
+Text Label 2600 8800 0 70 ~
+S10
+Text Label 2600 10300 0 70 ~
+S19
+Wire Wire Line
+	2800 5100 2500 5100
+Text Label 2600 7500 0 70 ~
+S11
+Text Label 2600 7600 0 70 ~
+S6
+Text Label 2600 7700 0 70 ~
+S1
+Text Label 2600 7800 0 70 ~
+S12
+Text Label 2600 7900 0 70 ~
+S7
+Text Label 2600 8000 0 70 ~
+S2
+Text Label 2600 8100 0 70 ~
+S13
+Text Label 2600 8200 0 70 ~
+S8
+Text Label 2600 8500 0 70 ~
+S3
+Text Label 2600 4300 0 70 ~
+S8
+Text Label 2600 4400 0 70 ~
+S13
+Text Label 2600 4500 0 70 ~
+S2
+Text Label 2600 4600 0 70 ~
+S7
+Text Label 2600 4700 0 70 ~
+S12
+Text Label 2600 4800 0 70 ~
+S1
+Text Label 2600 4900 0 70 ~
+S6
+Text Label 2600 5000 0 70 ~
+S11
+Text Label 2600 6900 0 70 ~
+S3
+Text Label 2600 8400 0 70 ~
+S14
+Text Label 2600 8300 0 70 ~
+S9
+Text Label 2600 4100 0 70 ~
+S14
+Text Label 2600 4200 0 70 ~
+S9
+Wire Notes Line
+	5000 9000 4400 9000
+Wire Notes Line
+	4900 9100 4500 9100
+Text Label 4600 8900 0 70 ~
+VCC
+Text Label 4600 9200 0 70 ~
+GND_P
+Wire Wire Line
+	5700 9200 5400 9200
+Text Label 5500 9200 0 70 ~
+GND
+Text Label 5500 8900 0 70 ~
+VCC
+Wire Notes Line
+	4400 9000 4500 9100
+Wire Notes Line
+	5000 9000 4900 9100
+Wire Wire Line
+	5100 9200 4400 9200
+Wire Wire Line
+	5700 8900 5250 8900
+Wire Wire Line
+	5250 8900 5250 8950
+Wire Wire Line
+	4400 8900 5250 8900
+Wire Notes Line
+	5000 8300 4400 8300
+Wire Notes Line
+	4900 8400 4500 8400
+Text Label 4600 8200 0 70 ~
+VCC
+Text Label 4600 8500 0 70 ~
+GND_P
+Wire Wire Line
+	5700 8500 5400 8500
+Text Label 5500 8500 0 70 ~
+GND
+Text Label 5500 8200 0 70 ~
+VCC
+Wire Notes Line
+	4400 8300 4500 8400
+Wire Notes Line
+	5000 8300 4900 8400
+Wire Wire Line
+	5100 8500 4400 8500
+Wire Wire Line
+	5700 8200 5250 8200
+Wire Wire Line
+	5250 8200 5250 8250
+Wire Wire Line
+	4400 8200 5250 8200
+Wire Wire Line
+	7700 8700 7400 8700
+Text Label 7500 8700 0 70 ~
+GND
+Wire Wire Line
+	2800 9100 2500 9100
+Text Label 6200 8700 0 70 ~
+LED
+Wire Wire Line
+	6400 8700 6100 8700
+Wire Wire Line
+	7700 9100 7400 9100
+Text Label 7500 9100 0 70 ~
+GND
+Text Label 6200 9100 0 70 ~
+LED
+Wire Wire Line
+	6400 9100 6100 9100
+Wire Wire Line
+	7000 8700 6800 8700
+Wire Wire Line
+	6800 9100 7000 9100
+Text Label 6900 8700 0 70 ~
+L1
+Text Label 6900 9100 0 70 ~
+L2
+Wire Wire Line
+	3200 9500 2500 9500
+Wire Wire Line
+	3200 6100 2500 6100
+Text Label 3000 9500 0 70 ~
+GND
+Text Label 3000 6100 0 70 ~
+GND
+Wire Wire Line
+	3200 8700 2500 8700
+Text Label 3000 8700 0 70 ~
+GND
+Wire Wire Line
+	3200 5200 2500 5200
+Text Notes 3200 9500 0    60   ~ 0
+Alpha
+Text Notes 3200 6100 0    60   ~ 0
+Alpha
+Text Notes 3200 8700 0    60   ~ 0
+Right
+Text Notes 3200 5200 0    60   ~ 0
+Left
+Text Notes 1200 7400 0    60   ~ 0
+Module on underside of board for Right hand
+Text Notes 1200 4000 0    60   ~ 0
+Module on underside of board for Left hand
+Connection ~ 900 8000
+Connection ~ 900 4600
+Connection ~ 4000 6800
+Connection ~ 4000 6200
+Connection ~ 4000 5600
+Connection ~ 4000 5000
+Connection ~ 4000 4400
+Connection ~ 4700 6800
+Connection ~ 4700 6200
+Connection ~ 4700 5600
+Connection ~ 4700 5000
+Connection ~ 4700 4400
+Connection ~ 5250 8900
+Connection ~ 5250 8200
+Connection ~ 5400 7400
+Connection ~ 5400 6800
+Connection ~ 5400 6200
+Connection ~ 5400 5600
+Connection ~ 5400 5000
+Connection ~ 5400 4400
+Connection ~ 6100 6800
+Connection ~ 6100 6200
+Connection ~ 6100 5600
+Connection ~ 6100 5000
+Connection ~ 6100 4400
+Connection ~ 6800 7400
+Connection ~ 6800 6800
+Connection ~ 6800 6200
+Connection ~ 6800 5600
+Connection ~ 6800 5000
+Connection ~ 6800 4400
+Connection ~ 7500 6800
+Connection ~ 7500 6200
+Connection ~ 7500 5600
+Connection ~ 7500 5000
+Connection ~ 7500 4400
+Connection ~ 8200 7400
+Connection ~ 8200 6800
+Connection ~ 8200 6200
+Connection ~ 8200 5600
+Connection ~ 8200 5000
+Connection ~ 8200 4400
+Connection ~ 8900 6800
+Connection ~ 8900 6200
+Connection ~ 8900 5600
+Connection ~ 8900 5000
+Connection ~ 8900 4400
+Connection ~ 9600 5600
+Connection ~ 9600 5000
+Connection ~ 9600 4400
+Connection ~ 10300 5600
+Connection ~ 10300 5000
+Connection ~ 10300 4400
+$Comp
+L CHERRY_MX S1
+U 1 1 59C3E67C
+F 0 "S1" H 4190 4310 60  0000 L BNN
+F 1 "CHERRY MX" H 4190 4070 60  0000 L BNN
+F 2 "" H 4190 4070 60  0000 C CNN
+F 3 "" H 4190 4070 60  0000 C CNN
+	1    4200 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S21
+U 1 1 59C3E67B
+F 0 "S21" H 5590 6710 60  0000 L BNN
+F 1 "CHERRY MX" H 5590 6470 60  0000 L BNN
+F 2 "" H 5590 6470 60  0000 C CNN
+F 3 "" H 5590 6470 60  0000 C CNN
+	1    5600 6700
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S3
+U 1 1 59C3E67A
+F 0 "S3" H 6990 4310 60  0000 L BNN
+F 1 "CHERRY MX" H 6990 4070 60  0000 L BNN
+F 2 "" H 6990 4070 60  0000 C CNN
+F 3 "" H 6990 4070 60  0000 C CNN
+	1    7000 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S8
+U 1 1 59C3E679
+F 0 "S8" H 6990 4910 60  0000 L BNN
+F 1 "CHERRY MX" H 6990 4670 60  0000 L BNN
+F 2 "" H 6990 4670 60  0000 C CNN
+F 3 "" H 6990 4670 60  0000 C CNN
+	1    7000 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S13
+U 1 1 59C3E678
+F 0 "S13" H 6990 5510 60  0000 L BNN
+F 1 "CHERRY MX" H 6990 5270 60  0000 L BNN
+F 2 "" H 6990 5270 60  0000 C CNN
+F 3 "" H 6990 5270 60  0000 C CNN
+	1    7000 5500
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S18
+U 1 1 59C3E677
+F 0 "S18" H 6990 6110 60  0000 L BNN
+F 1 "CHERRY MX" H 6990 5870 60  0000 L BNN
+F 2 "" H 6990 5870 60  0000 C CNN
+F 3 "" H 6990 5870 60  0000 C CNN
+	1    7000 6100
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S22
+U 1 1 59C3E676
+F 0 "S22" H 6990 6710 60  0000 L BNN
+F 1 "CHERRY MX" H 6990 6470 60  0000 L BNN
+F 2 "" H 6990 6470 60  0000 C CNN
+F 3 "" H 6990 6470 60  0000 C CNN
+	1    7000 6700
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S4
+U 1 1 59C3E675
+F 0 "S4" H 8390 4310 60  0000 L BNN
+F 1 "CHERRY MX" H 8390 4070 60  0000 L BNN
+F 2 "" H 8390 4070 60  0000 C CNN
+F 3 "" H 8390 4070 60  0000 C CNN
+	1    8400 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S9
+U 1 1 59C3E674
+F 0 "S9" H 8390 4910 60  0000 L BNN
+F 1 "CHERRY MX" H 8390 4670 60  0000 L BNN
+F 2 "" H 8390 4670 60  0000 C CNN
+F 3 "" H 8390 4670 60  0000 C CNN
+	1    8400 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S14
+U 1 1 59C3E673
+F 0 "S14" H 8390 5510 60  0000 L BNN
+F 1 "CHERRY MX" H 8390 5270 60  0000 L BNN
+F 2 "" H 8390 5270 60  0000 C CNN
+F 3 "" H 8390 5270 60  0000 C CNN
+	1    8400 5500
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S19
+U 1 1 59C3E672
+F 0 "S19" H 8390 6110 60  0000 L BNN
+F 1 "CHERRY MX" H 8390 5870 60  0000 L BNN
+F 2 "" H 8390 5870 60  0000 C CNN
+F 3 "" H 8390 5870 60  0000 C CNN
+	1    8400 6100
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S6
+U 1 1 59C3E671
+F 0 "S6" H 4190 4910 60  0000 L BNN
+F 1 "CHERRY MX" H 4190 4670 60  0000 L BNN
+F 2 "" H 4190 4670 60  0000 C CNN
+F 3 "" H 4190 4670 60  0000 C CNN
+	1    4200 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S23
+U 1 1 59C3E670
+F 0 "S23" H 8390 6710 60  0000 L BNN
+F 1 "CHERRY MX" H 8390 6470 60  0000 L BNN
+F 2 "" H 8390 6470 60  0000 C CNN
+F 3 "" H 8390 6470 60  0000 C CNN
+	1    8400 6700
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S5
+U 1 1 59C3E66F
+F 0 "S5" H 9790 4310 60  0000 L BNN
+F 1 "CHERRY MX" H 9790 4070 60  0000 L BNN
+F 2 "" H 9790 4070 60  0000 C CNN
+F 3 "" H 9790 4070 60  0000 C CNN
+	1    9800 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S10
+U 1 1 59C3E66E
+F 0 "S10" H 9790 4910 60  0000 L BNN
+F 1 "CHERRY MX" H 9790 4670 60  0000 L BNN
+F 2 "" H 9790 4670 60  0000 C CNN
+F 3 "" H 9790 4670 60  0000 C CNN
+	1    9800 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S15
+U 1 1 59C3E66D
+F 0 "S15" H 9790 5510 60  0000 L BNN
+F 1 "CHERRY MX" H 9790 5270 60  0000 L BNN
+F 2 "" H 9790 5270 60  0000 C CNN
+F 3 "" H 9790 5270 60  0000 C CNN
+	1    9800 5500
+	1    0    0    -1
+$EndComp
+$Comp
+L Core51822_(B) U2
+U 1 1 59C3E66C
+F 0 "U2" H 4000 6100 60  0000 R BNN
+	1    2600 8300
+	-1    0    0    -1
+$EndComp
+$Comp
+L Core51822_(B) U1
+U 1 1 59C3E66B
+F 0 "U1" H 4000 2700 60  0000 R BNN
+	1    2600 4900
+	-1    0    0    -1
+$EndComp
+$Comp
+L SI2302 Q2
+U 1 1 59C3E66A
+F 0 "Q2" V 4710 8990 60  0000 R BNN
+F 1 "SI2302" V 4610 8990 60  0000 R BNN
+F 2 "" H 4610 8990 60  0000 C CNN
+F 3 "" H 4610 8990 60  0000 C CNN
+	1    5150 9000
+	0    1   -1   0
+$EndComp
+$Comp
+L SI2302 Q1
+U 1 1 59C3E669
+F 0 "Q1" V 4710 8290 60  0000 R BNN
+F 1 "SI2302" V 4610 8290 60  0000 R BNN
+F 2 "" H 4610 8290 60  0000 C CNN
+F 3 "" H 4610 8290 60  0000 C CNN
+	1    5150 8300
+	0    1   -1   0
+$EndComp
+$Comp
+L 0603 R1
+U 1 1 59C3E668
+F 0 "R1" H 7040 8760 60  0000 L BNN
+F 1 "0603" H 7040 8540 60  0000 L BNN
+F 2 "" H 7040 8540 60  0000 C CNN
+F 3 "" H 7040 8540 60  0000 C CNN
+	1    7200 8700
+	1    0    0    -1
+$EndComp
+$Comp
+L 0603 D1
+U 1 1 59C3E667
+F 0 "D1" H 6440 8760 60  0000 L BNN
+F 1 "0603" H 6440 8540 60  0000 L BNN
+F 2 "" H 6440 8540 60  0000 C CNN
+F 3 "" H 6440 8540 60  0000 C CNN
+	1    6600 8700
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S11
+U 1 1 59C3E666
+F 0 "S11" H 4190 5510 60  0000 L BNN
+F 1 "CHERRY MX" H 4190 5270 60  0000 L BNN
+F 2 "" H 4190 5270 60  0000 C CNN
+F 3 "" H 4190 5270 60  0000 C CNN
+	1    4200 5500
+	1    0    0    -1
+$EndComp
+$Comp
+L 0603 R2
+U 1 1 59C3E665
+F 0 "R2" H 7040 9160 60  0000 L BNN
+F 1 "0603" H 7040 8940 60  0000 L BNN
+F 2 "" H 7040 8940 60  0000 C CNN
+F 3 "" H 7040 8940 60  0000 C CNN
+	1    7200 9100
+	1    0    0    -1
+$EndComp
+$Comp
+L 0603 D2
+U 1 1 59C3E664
+F 0 "D2" H 6440 9160 60  0000 L BNN
+F 1 "0603" H 6440 8940 60  0000 L BNN
+F 2 "" H 6440 8940 60  0000 C CNN
+F 3 "" H 6440 8940 60  0000 C CNN
+	1    6600 9100
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S16
+U 1 1 59C3E663
+F 0 "S16" H 4190 6110 60  0000 L BNN
+F 1 "CHERRY MX" H 4190 5870 60  0000 L BNN
+F 2 "" H 4190 5870 60  0000 C CNN
+F 3 "" H 4190 5870 60  0000 C CNN
+	1    4200 6100
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S20
+U 1 1 59C3E662
+F 0 "S20" H 4190 6710 60  0000 L BNN
+F 1 "CHERRY MX" H 4190 6470 60  0000 L BNN
+F 2 "" H 4190 6470 60  0000 C CNN
+F 3 "" H 4190 6470 60  0000 C CNN
+	1    4200 6700
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S2
+U 1 1 59C3E661
+F 0 "S2" H 5590 4310 60  0000 L BNN
+F 1 "CHERRY MX" H 5590 4070 60  0000 L BNN
+F 2 "" H 5590 4070 60  0000 C CNN
+F 3 "" H 5590 4070 60  0000 C CNN
+	1    5600 4300
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S7
+U 1 1 59C3E660
+F 0 "S7" H 5590 4910 60  0000 L BNN
+F 1 "CHERRY MX" H 5590 4670 60  0000 L BNN
+F 2 "" H 5590 4670 60  0000 C CNN
+F 3 "" H 5590 4670 60  0000 C CNN
+	1    5600 4900
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S12
+U 1 1 59C3E65F
+F 0 "S12" H 5590 5510 60  0000 L BNN
+F 1 "CHERRY MX" H 5590 5270 60  0000 L BNN
+F 2 "" H 5590 5270 60  0000 C CNN
+F 3 "" H 5590 5270 60  0000 C CNN
+	1    5600 5500
+	1    0    0    -1
+$EndComp
+$Comp
+L CHERRY_MX S17
+U 1 1 59C3E65E
+F 0 "S17" H 5590 6110 60  0000 L BNN
+F 1 "CHERRY MX" H 5590 5870 60  0000 L BNN
+F 2 "" H 5590 5870 60  0000 C CNN
+F 3 "" H 5590 5870 60  0000 C CNN
+	1    5600 6100
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC
