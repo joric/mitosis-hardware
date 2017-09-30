@@ -3,9 +3,14 @@ Kicad Mitosis
 
 A port of original Mitosis converted with [altium2kicad](https://github.com/thesourcerer8/altium2kicad).
 
-* default - cleaned up autoconverted version, should be ready for export (NOT CHECKED!)
+Disclaimer
+----------
+
+NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RISK!
+
+* default - cleaned up autoconverted version, should be ready for export
+* YJ-14015-support - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
-* YJ-14015-support - wider pads fro YJ-14015 (unfinished, check carefully!)
 
 Converting
 ----------
