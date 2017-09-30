@@ -12,6 +12,8 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * YJ-14015-support - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
 
+Mind that there's no network yet so it couldn't be autorouted.
+
 Converting
 ----------
 
