@@ -12,6 +12,7 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * YJ-14015-support - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
 * hanya - files taken from [here](https://github.com/hanya/mitosis-hardware/tree/kicad) (with a working net)
+* interphase - files taken from [here](https://github.com/Durburz/interphase) (with more keys)
 
 I actually recommed hanya's project, it seems more accurate.
 
