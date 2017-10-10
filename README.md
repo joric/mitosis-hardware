@@ -14,7 +14,7 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * hanya - files taken from [here](https://github.com/hanya/mitosis-hardware/tree/kicad) (with a working net)
 * interphase - files taken from [here](https://github.com/Durburz/interphase) (with more keys)
 
-I actually recommed hanya's project, it seems more accurate.
+I actually recommend hanya's project, it seems more accurate.
 
 Converting
 ----------
