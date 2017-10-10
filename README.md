@@ -11,10 +11,9 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * default - cleaned up autoconverted version, should be ready for export
 * YJ-14015-support - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
+* hanya - files taken from https://github.com/hanya/mitosis-hardware/tree/kicad (with a working network!)
 
-Mind that there's no network yet so it couldn't be autorouted.
-
-I actually recommed this project, it seems more accurate: https://github.com/hanya/mitosis-hardware/tree/kicad
+I actually recommed [this](https://github.com/hanya/mitosis-hardware/tree/kicad) project, it seems more accurate.
 
 Converting
 ----------

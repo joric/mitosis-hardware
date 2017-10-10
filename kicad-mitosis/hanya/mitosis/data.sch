@@ -1,0 +1,967 @@
+EESchema Schematic File Version 2
+LIBS:data
+LIBS:data-cache
+EELAYER 26 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "mitosis-SchDoc"
+Date "22 07 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6850 2250 6850 5250
+Wire Wire Line
+	6850 5250 12450 5250
+Wire Wire Line
+	12450 5250 12450 2250
+Wire Wire Line
+	8250 2250 8250 5250
+Wire Wire Line
+	9650 2250 9650 5250
+Wire Wire Line
+	11050 2250 11050 5250
+Text Label 7350 5250 0    70   ~ 0
+GND
+Text Label 7650 2250 0    70   ~ 0
+S1
+Text Label 7650 2850 0    70   ~ 0
+S6
+Text Label 7650 3450 0    70   ~ 0
+S11
+Text Label 7650 4050 0    70   ~ 0
+S16
+Text Label 7650 4650 0    70   ~ 0
+S20
+Text Label 9050 2250 0    70   ~ 0
+S2
+Text Label 9050 2850 0    70   ~ 0
+S7
+Text Label 9050 3450 0    70   ~ 0
+S12
+Text Label 9050 4050 0    70   ~ 0
+S17
+Text Label 9050 4650 0    70   ~ 0
+S21
+Text Label 10450 2250 0    70   ~ 0
+S3
+Text Label 10450 2850 0    70   ~ 0
+S8
+Text Label 10450 3450 0    70   ~ 0
+S13
+Text Label 10450 4050 0    70   ~ 0
+S18
+Text Label 10450 4650 0    70   ~ 0
+S22
+Text Label 11850 2250 0    70   ~ 0
+S4
+Text Label 11850 2850 0    70   ~ 0
+S9
+Text Label 11850 3450 0    70   ~ 0
+S14
+Text Label 11850 4050 0    70   ~ 0
+S19
+Text Label 11850 4650 0    70   ~ 0
+S23
+Text Label 13250 2250 0    70   ~ 0
+S5
+Text Label 13250 2850 0    70   ~ 0
+S10
+Text Label 13250 3450 0    70   ~ 0
+S15
+Wire Wire Line
+	7850 2250 7550 2250
+Wire Wire Line
+	7850 2850 7550 2850
+Wire Wire Line
+	7850 3450 7550 3450
+Wire Wire Line
+	7850 4050 7550 4050
+Wire Wire Line
+	7850 4650 7550 4650
+Wire Wire Line
+	9250 2250 8950 2250
+Wire Wire Line
+	9250 2850 8950 2850
+Wire Wire Line
+	9250 3450 8950 3450
+Wire Wire Line
+	9250 4050 8950 4050
+Wire Wire Line
+	9250 4650 8950 4650
+Wire Wire Line
+	10650 2250 10350 2250
+Wire Wire Line
+	10650 2850 10350 2850
+Wire Wire Line
+	10650 3450 10350 3450
+Wire Wire Line
+	10650 4050 10350 4050
+Wire Wire Line
+	10650 4650 10350 4650
+Wire Wire Line
+	12050 2250 11750 2250
+Wire Wire Line
+	12050 2850 11750 2850
+Wire Wire Line
+	12050 3450 11750 3450
+Wire Wire Line
+	12050 4050 11750 4050
+Wire Wire Line
+	12050 4650 11750 4650
+Wire Wire Line
+	13450 2250 13150 2250
+Wire Wire Line
+	13450 2850 13150 2850
+Wire Wire Line
+	13450 3450 13150 3450
+$Comp
+L VCC #VCC01
+U 1 1 5972B1F0
+P 3750 5550
+F 0 "#VCC01" H 3750 5550 20  0001 C CNN
+F 1 "+VCC" H 3750 5700 30  0000 C CNN
+F 2 "" H 3750 5550 70  0000 C CNN
+F 3 "" H 3750 5550 70  0000 C CNN
+	1    3750 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5850 3750 5750
+Wire Wire Line
+	3750 7350 3350 7350
+Wire Wire Line
+	3750 7450 3350 7450
+Text Label 3350 7350 0    70   ~ 0
+SWCLK
+Text Label 3350 7450 0    70   ~ 0
+SWDIO
+$Comp
+L VCC #VCC_02
+U 1 1 5972B1EE
+P 3750 2150
+F 0 "#VCC_02" H 3750 2150 20  0001 C CNN
+F 1 "+VCC" H 3750 2300 30  0000 C CNN
+F 2 "" H 3750 2150 70  0000 C CNN
+F 3 "" H 3750 2150 70  0000 C CNN
+	1    3750 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2450 3750 2350
+Wire Wire Line
+	3750 3950 3350 3950
+Wire Wire Line
+	3750 4050 3350 4050
+Text Label 3350 3950 0    70   ~ 0
+SWCLK
+Text Label 3350 4050 0    70   ~ 0
+SWDIO
+Wire Wire Line
+	5650 4750 5350 4750
+Wire Wire Line
+	5350 4650 5650 4650
+Wire Wire Line
+	5650 4550 5350 4550
+Wire Wire Line
+	5350 4450 5650 4450
+Wire Wire Line
+	5650 4350 5350 4350
+Wire Wire Line
+	5350 4250 6050 4250
+Wire Wire Line
+	5650 4150 5350 4150
+Wire Wire Line
+	5350 4050 5650 4050
+Wire Wire Line
+	5350 3850 5650 3850
+Wire Wire Line
+	5650 3750 5350 3750
+Wire Wire Line
+	5350 3650 5650 3650
+Wire Wire Line
+	5650 3550 5350 3550
+Wire Wire Line
+	5350 3450 5650 3450
+Wire Wire Line
+	5650 3350 5350 3350
+Wire Wire Line
+	5350 3250 5650 3250
+Wire Wire Line
+	5350 2850 5650 2850
+Wire Wire Line
+	5650 2750 5350 2750
+Wire Wire Line
+	5350 2650 5650 2650
+Wire Wire Line
+	5650 2550 5350 2550
+Wire Wire Line
+	5350 2450 5650 2450
+Wire Wire Line
+	5650 2350 5350 2350
+Wire Wire Line
+	5350 2250 5650 2250
+Wire Wire Line
+	5650 2150 5350 2150
+Wire Wire Line
+	5350 2050 5650 2050
+Wire Wire Line
+	5650 1950 5350 1950
+Text Label 5450 2950 0    70   ~ 0
+S19
+Text Label 5450 3250 0    70   ~ 0
+S17
+Text Label 5450 3350 0    70   ~ 0
+S18
+Text Label 5450 3450 0    70   ~ 0
+S20
+Text Label 5450 3550 0    70   ~ 0
+S16
+Text Label 5450 3650 0    70   ~ 0
+S21
+Text Label 5450 3750 0    70   ~ 0
+S22
+Text Label 5450 3850 0    70   ~ 0
+S23
+Text Label 5450 4050 0    70   ~ 0
+S15
+Text Label 5450 4150 0    70   ~ 0
+W23
+Text Label 5850 4250 0    70   ~ 0
+LED
+Text Label 5450 4350 0    70   ~ 0
+S4
+Text Label 5450 4450 0    70   ~ 0
+W26
+Text Label 5450 4550 0    70   ~ 0
+S5
+Text Label 5450 4650 0    70   ~ 0
+S10
+Wire Wire Line
+	5650 8150 5350 8150
+Wire Wire Line
+	5350 6650 5650 6650
+Wire Wire Line
+	5650 6750 5350 6750
+Wire Wire Line
+	5650 6850 5350 6850
+Wire Wire Line
+	5350 7050 6050 7050
+Wire Wire Line
+	5650 7150 5350 7150
+Wire Wire Line
+	5350 7250 5650 7250
+Wire Wire Line
+	5350 7450 5650 7450
+Wire Wire Line
+	5650 7550 5350 7550
+Wire Wire Line
+	5350 7650 5650 7650
+Wire Wire Line
+	5650 7850 5350 7850
+Wire Wire Line
+	5350 7750 5650 7750
+Wire Wire Line
+	5650 7950 5350 7950
+Wire Wire Line
+	5350 8050 5650 8050
+Wire Wire Line
+	5650 6350 5350 6350
+Wire Wire Line
+	5350 6250 5650 6250
+Wire Wire Line
+	5650 6150 5350 6150
+Wire Wire Line
+	5350 6050 5650 6050
+Wire Wire Line
+	5650 5950 5350 5950
+Wire Wire Line
+	5350 5850 5650 5850
+Wire Wire Line
+	5650 5750 5350 5750
+Wire Wire Line
+	5350 5650 5650 5650
+Wire Wire Line
+	5650 5550 5350 5550
+Wire Wire Line
+	5350 5450 5650 5450
+Wire Wire Line
+	5650 5350 5350 5350
+Text Label 5450 8050 0    70   ~ 0
+S17
+Text Label 5450 7950 0    70   ~ 0
+S18
+Text Label 5450 7750 0    70   ~ 0
+S20
+Text Label 5450 7850 0    70   ~ 0
+S16
+Text Label 5450 7650 0    70   ~ 0
+S21
+Text Label 5450 7550 0    70   ~ 0
+S22
+Text Label 5450 7450 0    70   ~ 0
+S23
+Text Label 5450 7250 0    70   ~ 0
+S15
+Text Label 5450 7150 0    70   ~ 0
+W23
+Text Label 5850 7050 0    70   ~ 0
+LED
+Text Label 5450 6850 0    70   ~ 0
+S4
+Text Label 5450 6950 0    70   ~ 0
+W26
+Text Label 5450 6750 0    70   ~ 0
+S5
+Text Label 5450 6650 0    70   ~ 0
+S10
+Text Label 5450 8150 0    70   ~ 0
+S19
+Wire Wire Line
+	5650 2950 5350 2950
+Text Label 5450 5350 0    70   ~ 0
+S11
+Text Label 5450 5450 0    70   ~ 0
+S6
+Text Label 5450 5550 0    70   ~ 0
+S1
+Text Label 5450 5650 0    70   ~ 0
+S12
+Text Label 5450 5750 0    70   ~ 0
+S7
+Text Label 5450 5850 0    70   ~ 0
+S2
+Text Label 5450 5950 0    70   ~ 0
+S13
+Text Label 5450 6050 0    70   ~ 0
+S8
+Text Label 5450 6350 0    70   ~ 0
+S3
+Text Label 5450 2150 0    70   ~ 0
+S8
+Text Label 5450 2250 0    70   ~ 0
+S13
+Text Label 5450 2350 0    70   ~ 0
+S2
+Text Label 5450 2450 0    70   ~ 0
+S7
+Text Label 5450 2550 0    70   ~ 0
+S12
+Text Label 5450 2650 0    70   ~ 0
+S1
+Text Label 5450 2750 0    70   ~ 0
+S6
+Text Label 5450 2850 0    70   ~ 0
+S11
+Text Label 5450 4750 0    70   ~ 0
+S3
+Text Label 5450 6250 0    70   ~ 0
+S14
+Text Label 5450 6150 0    70   ~ 0
+S9
+Text Label 5450 1950 0    70   ~ 0
+S14
+Text Label 5450 2050 0    70   ~ 0
+S9
+Wire Notes Line
+	7850 6850 7250 6850
+Wire Notes Line
+	7750 6950 7350 6950
+Text Label 7450 6750 0    70   ~ 0
+VCC
+Text Label 7450 7050 0    70   ~ 0
+GND_P
+Wire Wire Line
+	8550 7050 8250 7050
+Text Label 8350 7050 0    70   ~ 0
+GND
+Text Label 8350 6750 0    70   ~ 0
+VCC
+Wire Notes Line
+	7350 6950 7250 6850
+Wire Notes Line
+	7850 6850 7750 6950
+Wire Wire Line
+	7950 7050 7250 7050
+Wire Wire Line
+	7250 6750 8550 6750
+Wire Wire Line
+	8100 6750 8100 6800
+Wire Notes Line
+	7850 6150 7250 6150
+Wire Notes Line
+	7750 6250 7350 6250
+Text Label 7450 6050 0    70   ~ 0
+VCC
+Text Label 7450 6350 0    70   ~ 0
+GND_P
+Wire Wire Line
+	8550 6350 8250 6350
+Text Label 8350 6350 0    70   ~ 0
+GND
+Text Label 8350 6050 0    70   ~ 0
+VCC
+Wire Notes Line
+	7350 6250 7250 6150
+Wire Notes Line
+	7850 6150 7750 6250
+Wire Wire Line
+	7950 6350 7250 6350
+Wire Wire Line
+	7250 6050 8550 6050
+Wire Wire Line
+	8100 6050 8100 6100
+Wire Wire Line
+	10550 6550 10250 6550
+Text Label 10350 6550 0    70   ~ 0
+GND
+Wire Wire Line
+	5650 6950 5350 6950
+Text Label 9050 6550 0    70   ~ 0
+LED
+Wire Wire Line
+	9250 6550 8950 6550
+Wire Wire Line
+	10550 6950 10250 6950
+Text Label 10350 6950 0    70   ~ 0
+GND
+Text Label 9050 6950 0    70   ~ 0
+LED
+Wire Wire Line
+	9250 6950 8950 6950
+Wire Wire Line
+	9850 6550 9650 6550
+Wire Wire Line
+	9650 6950 9850 6950
+Text Label 9750 6550 0    70   ~ 0
+L1
+Text Label 9750 6950 0    70   ~ 0
+L2
+Wire Wire Line
+	6050 7350 5350 7350
+Wire Wire Line
+	6050 3950 5350 3950
+Text Label 5850 7350 0    70   ~ 0
+GND
+Text Label 5850 3950 0    70   ~ 0
+GND
+Wire Wire Line
+	6050 6550 5350 6550
+Text Label 5850 6550 0    70   ~ 0
+GND
+Wire Wire Line
+	6050 3050 5350 3050
+Text Notes 6050 7350 0    60   ~ 0
+Alpha
+Text Notes 6050 3950 0    60   ~ 0
+Alpha
+Text Notes 6050 6550 0    60   ~ 0
+Right
+Text Notes 6050 3050 0    60   ~ 0
+Left
+Text Notes 4050 5250 0    60   ~ 0
+Module on underside of board for Right hand
+Text Notes 4050 1850 0    60   ~ 0
+Module on underside of board for Left hand
+Connection ~ 3750 5850
+Connection ~ 3750 2450
+Connection ~ 6850 4650
+Connection ~ 6850 4050
+Connection ~ 6850 3450
+Connection ~ 6850 2850
+Connection ~ 6850 2250
+Connection ~ 7550 4650
+Connection ~ 7550 4050
+Connection ~ 7550 3450
+Connection ~ 7550 2850
+Connection ~ 7550 2250
+Connection ~ 8100 6750
+Connection ~ 8100 6050
+Connection ~ 8250 5250
+Connection ~ 8250 4650
+Connection ~ 8250 4050
+Connection ~ 8250 3450
+Connection ~ 8250 2850
+Connection ~ 8250 2250
+Connection ~ 8950 4650
+Connection ~ 8950 4050
+Connection ~ 8950 3450
+Connection ~ 8950 2850
+Connection ~ 8950 2250
+Connection ~ 9650 5250
+Connection ~ 9650 4650
+Connection ~ 9650 4050
+Connection ~ 9650 3450
+Connection ~ 9650 2850
+Connection ~ 9650 2250
+Connection ~ 10350 4650
+Connection ~ 10350 4050
+Connection ~ 10350 3450
+Connection ~ 10350 2850
+Connection ~ 10350 2250
+Connection ~ 11050 5250
+Connection ~ 11050 4650
+Connection ~ 11050 4050
+Connection ~ 11050 3450
+Connection ~ 11050 2850
+Connection ~ 11050 2250
+Connection ~ 11750 4650
+Connection ~ 11750 4050
+Connection ~ 11750 3450
+Connection ~ 11750 2850
+Connection ~ 11750 2250
+Connection ~ 12450 3450
+Connection ~ 12450 2850
+Connection ~ 12450 2250
+Connection ~ 13150 3450
+Connection ~ 13150 2850
+Connection ~ 13150 2250
+$Comp
+L CHERRY_MX S1
+U 1 1 5972B1EC
+P 7050 2150
+F 0 "S1" H 7100 2200 60  0000 L BNN
+F 1 "CHERRY MX" H 7050 1950 60  0000 L BNN
+F 2 "parts:cherry_angled" H 11240 6220 60  0001 C CNN
+F 3 "" H 11240 6220 60  0000 C CNN
+	1    7050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S21
+U 1 1 5972B1EB
+P 8450 4550
+F 0 "S21" H 8500 4600 60  0000 L BNN
+F 1 "CHERRY MX" H 8450 4350 60  0000 L BNN
+F 2 "parts:cherry" H 14040 11020 60  0001 C CNN
+F 3 "" H 14040 11020 60  0000 C CNN
+	1    8450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S3
+U 1 1 5972B1EA
+P 9850 2150
+F 0 "S3" H 9900 2200 60  0000 L BNN
+F 1 "CHERRY MX" H 9850 1950 60  0000 L BNN
+F 2 "parts:cherry_angled" H 16840 6220 60  0001 C CNN
+F 3 "" H 16840 6220 60  0000 C CNN
+	1    9850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S8
+U 1 1 5972B1E9
+P 9850 2750
+F 0 "S8" H 9900 2800 60  0000 L BNN
+F 1 "CHERRY MX" H 9850 2550 60  0000 L BNN
+F 2 "parts:cherry_angled" H 16840 7420 60  0001 C CNN
+F 3 "" H 16840 7420 60  0000 C CNN
+	1    9850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S13
+U 1 1 5972B1E8
+P 9850 3350
+F 0 "S13" H 9900 3400 60  0000 L BNN
+F 1 "CHERRY MX" H 9850 3150 60  0000 L BNN
+F 2 "parts:cherry_angled" H 16840 8620 60  0001 C CNN
+F 3 "" H 16840 8620 60  0000 C CNN
+	1    9850 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S18
+U 1 1 5972B1E7
+P 9850 3950
+F 0 "S18" H 9900 4000 60  0000 L BNN
+F 1 "CHERRY MX" H 9850 3750 60  0000 L BNN
+F 2 "parts:cherry" H 16840 9820 60  0001 C CNN
+F 3 "" H 16840 9820 60  0000 C CNN
+	1    9850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S22
+U 1 1 5972B1E6
+P 9850 4550
+F 0 "S22" H 9900 4600 60  0000 L BNN
+F 1 "CHERRY MX" H 9850 4350 60  0000 L BNN
+F 2 "parts:cherry" H 16840 11020 60  0001 C CNN
+F 3 "" H 16840 11020 60  0000 C CNN
+	1    9850 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S4
+U 1 1 5972B1E5
+P 11250 2150
+F 0 "S4" H 11300 2200 60  0000 L BNN
+F 1 "CHERRY MX" H 11250 1950 60  0000 L BNN
+F 2 "parts:cherry_angled" H 19640 6220 60  0001 C CNN
+F 3 "" H 19640 6220 60  0000 C CNN
+	1    11250 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S9
+U 1 1 5972B1E4
+P 11250 2750
+F 0 "S9" H 11300 2800 60  0000 L BNN
+F 1 "CHERRY MX" H 11250 2550 60  0000 L BNN
+F 2 "parts:cherry_angled" H 19640 7420 60  0001 C CNN
+F 3 "" H 19640 7420 60  0000 C CNN
+	1    11250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S14
+U 1 1 5972B1E3
+P 11250 3350
+F 0 "S14" H 11300 3400 60  0000 L BNN
+F 1 "CHERRY MX" H 11250 3150 60  0000 L BNN
+F 2 "parts:cherry_angled" H 19640 8620 60  0001 C CNN
+F 3 "" H 19640 8620 60  0000 C CNN
+	1    11250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S19
+U 1 1 5972B1E2
+P 11250 3950
+F 0 "S19" H 11300 4000 60  0000 L BNN
+F 1 "CHERRY MX" H 11250 3750 60  0000 L BNN
+F 2 "parts:cherry" H 19640 9820 60  0001 C CNN
+F 3 "" H 19640 9820 60  0000 C CNN
+	1    11250 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S6
+U 1 1 5972B1E1
+P 7050 2750
+F 0 "S6" H 7100 2800 60  0000 L BNN
+F 1 "CHERRY MX" H 7050 2550 60  0000 L BNN
+F 2 "parts:cherry_angled" H 11240 7420 60  0001 C CNN
+F 3 "" H 11240 7420 60  0000 C CNN
+	1    7050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S23
+U 1 1 5972B1E0
+P 11250 4550
+F 0 "S23" H 11300 4600 60  0000 L BNN
+F 1 "CHERRY MX" H 11250 4350 60  0000 L BNN
+F 2 "parts:cherry" H 19640 11020 60  0001 C CNN
+F 3 "" H 19640 11020 60  0000 C CNN
+	1    11250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S5
+U 1 1 5972B1DF
+P 12650 2150
+F 0 "S5" H 12700 2200 60  0000 L BNN
+F 1 "CHERRY MX" H 12650 1950 60  0000 L BNN
+F 2 "parts:cherry_angled" H 22440 6220 60  0001 C CNN
+F 3 "" H 22440 6220 60  0000 C CNN
+	1    12650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S10
+U 1 1 5972B1DE
+P 12650 2750
+F 0 "S10" H 12700 2800 60  0000 L BNN
+F 1 "CHERRY MX" H 12650 2550 60  0000 L BNN
+F 2 "parts:cherry_angled" H 22440 7420 60  0001 C CNN
+F 3 "" H 22440 7420 60  0000 C CNN
+	1    12650 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S15
+U 1 1 5972B1DD
+P 12650 3350
+F 0 "S15" H 12700 3400 60  0000 L BNN
+F 1 "CHERRY MX" H 12650 3150 60  0000 L BNN
+F 2 "parts:cherry_angled" H 22440 8620 60  0001 C CNN
+F 3 "" H 22440 8620 60  0000 C CNN
+	1    12650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Core51822_(B) U2
+U 1 1 5972B1DC
+P 5450 6150
+F 0 "U2" H 6800 3950 60  0000 R BNN
+F 1 "~" H 5450 6150 60  0001 C CNN
+F 2 "parts:Core51822B" H 5450 6150 60  0001 C CNN
+F 3 "" H 5450 6150 60  0001 C CNN
+	1    5450 6150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Core51822_(B) U1
+U 1 1 5972B1DB
+P 5450 2750
+F 0 "U1" H 6850 550 60  0000 R BNN
+F 1 "~" H 5450 2750 60  0001 C CNN
+F 2 "parts:Core51822B" H 5450 2750 60  0001 C CNN
+F 3 "" H 5450 2750 60  0001 C CNN
+	1    5450 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SI2302 Q2
+U 1 1 5972B1DA
+P 8000 6850
+F 0 "Q2" V 7650 7000 60  0000 R BNN
+F 1 "SI2302" V 7550 7100 60  0000 R BNN
+F 2 "parts:SOT-23" H 12610 15840 60  0001 C CNN
+F 3 "" H 12610 15840 60  0000 C CNN
+	1    8000 6850
+	0    1    -1   0   
+$EndComp
+$Comp
+L SI2302 Q1
+U 1 1 5972B1D9
+P 8000 6150
+F 0 "Q1" V 7650 6300 60  0000 R BNN
+F 1 "SI2302" V 7550 6400 60  0000 R BNN
+F 2 "parts:SOT-23" H 12610 14440 60  0001 C CNN
+F 3 "" H 12610 14440 60  0000 C CNN
+	1    8000 6150
+	0    1    -1   0   
+$EndComp
+$Comp
+L 0603 R1
+U 1 1 5972B1D8
+P 10050 6550
+F 0 "R1" H 10000 6650 60  0000 L BNN
+F 1 "0603" H 9950 6400 60  0000 L BNN
+F 2 "parts:RESC2012X06N" H 17090 15090 60  0001 C CNN
+F 3 "" H 17090 15090 60  0000 C CNN
+	1    10050 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0603 D1
+U 1 1 5972B1D7
+P 9450 6550
+F 0 "D1" H 9400 6650 60  0000 L BNN
+F 1 "0603" H 9350 6400 60  0000 L BNN
+F 2 "parts:RESC2012X06N" H 15890 15090 60  0001 C CNN
+F 3 "" H 15890 15090 60  0000 C CNN
+	1    9450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S11
+U 1 1 5972B1D6
+P 7050 3350
+F 0 "S11" H 7100 3400 60  0000 L BNN
+F 1 "CHERRY MX" H 7050 3150 60  0000 L BNN
+F 2 "parts:cherry_angled" H 11240 8620 60  0001 C CNN
+F 3 "" H 11240 8620 60  0000 C CNN
+	1    7050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0603 R2
+U 1 1 5972B1D5
+P 10050 6950
+F 0 "R2" H 10000 7050 60  0000 L BNN
+F 1 "0603" H 9950 6800 60  0000 L BNN
+F 2 "parts:RESC2012X06N" H 17090 15890 60  0001 C CNN
+F 3 "" H 17090 15890 60  0000 C CNN
+	1    10050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0603 D2
+U 1 1 5972B1D4
+P 9450 6950
+F 0 "D2" H 9400 7050 60  0000 L BNN
+F 1 "0603" H 9350 6800 60  0000 L BNN
+F 2 "parts:RESC2012X06N" H 15890 15890 60  0001 C CNN
+F 3 "" H 15890 15890 60  0000 C CNN
+	1    9450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S16
+U 1 1 5972B1D3
+P 7050 3950
+F 0 "S16" H 7100 4000 60  0000 L BNN
+F 1 "CHERRY MX" H 7050 3750 60  0000 L BNN
+F 2 "parts:cherry" H 11240 9820 60  0001 C CNN
+F 3 "" H 11240 9820 60  0000 C CNN
+	1    7050 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S20
+U 1 1 5972B1D2
+P 7050 4550
+F 0 "S20" H 7100 4600 60  0000 L BNN
+F 1 "CHERRY MX" H 7050 4350 60  0000 L BNN
+F 2 "parts:cherry" H 11240 11020 60  0001 C CNN
+F 3 "" H 11240 11020 60  0000 C CNN
+	1    7050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S2
+U 1 1 5972B1D1
+P 8450 2150
+F 0 "S2" H 8500 2200 60  0000 L BNN
+F 1 "CHERRY MX" H 8450 1950 60  0000 L BNN
+F 2 "parts:cherry_angled" H 14040 6220 60  0001 C CNN
+F 3 "" H 14040 6220 60  0000 C CNN
+	1    8450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S7
+U 1 1 5972B1D0
+P 8450 2750
+F 0 "S7" H 8500 2800 60  0000 L BNN
+F 1 "CHERRY MX" H 8450 2550 60  0000 L BNN
+F 2 "parts:cherry_angled" H 14040 7420 60  0001 C CNN
+F 3 "" H 14040 7420 60  0000 C CNN
+	1    8450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S12
+U 1 1 5972B1CF
+P 8450 3350
+F 0 "S12" H 8500 3400 60  0000 L BNN
+F 1 "CHERRY MX" H 8450 3150 60  0000 L BNN
+F 2 "parts:cherry_angled" H 14040 8620 60  0001 C CNN
+F 3 "" H 14040 8620 60  0000 C CNN
+	1    8450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CHERRY_MX S17
+U 1 1 5972B1CE
+P 8450 3950
+F 0 "S17" H 8500 4000 60  0000 L BNN
+F 1 "CHERRY MX" H 8450 3750 60  0000 L BNN
+F 2 "parts:cherry" H 14040 9820 60  0001 C CNN
+F 3 "" H 14040 9820 60  0000 C CNN
+	1    8450 3950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3750 4650
+NoConn ~ 3750 4750
+NoConn ~ 3750 8050
+NoConn ~ 3750 8150
+NoConn ~ 6050 3050
+NoConn ~ 5350 3150
+NoConn ~ 5350 6450
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 59766CE2
+P 3500 5550
+F 0 "#FLG01" H 3500 5645 30  0001 C CNN
+F 1 "PWR_FLAG" H 3500 5758 30  0000 C CNN
+F 2 "" H 3500 5550 60  0000 C CNN
+F 3 "" H 3500 5550 60  0000 C CNN
+	1    3500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 59766DAC
+P 3500 5850
+F 0 "#FLG02" H 3500 5945 30  0001 C CNN
+F 1 "PWR_FLAG" H 3500 6057 30  0000 C CNN
+F 2 "" H 3500 5850 60  0000 C CNN
+F 3 "" H 3500 5850 60  0000 C CNN
+	1    3500 5850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3750 5550 3500 5550
+Wire Wire Line
+	3750 5850 3500 5850
+$Comp
+L GND #PWR01
+U 1 1 59768AA6
+P 3750 2450
+F 0 "#PWR01" H 3950 2400 50  0001 C CNN
+F 1 "GND" H 3750 2250 50  0000 C CNN
+F 2 "" H 3750 2450 60  0000 C CNN
+F 3 "" H 3750 2450 60  0000 C CNN
+	1    3750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 59768CC6
+P 3750 5850
+F 0 "#PWR02" H 3950 5800 50  0001 C CNN
+F 1 "GND" H 3750 5650 50  0000 C CNN
+F 2 "" H 3750 5850 60  0000 C CNN
+F 3 "" H 3750 5850 60  0000 C CNN
+	1    3750 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Battery E1
+U 1 1 59756284
+P 7700 7900
+F 0 "E1" V 7436 7900 60  0000 C CNN
+F 1 "Battery" V 7542 7900 60  0000 C CNN
+F 2 "parts:CR2032_pad" H 7700 7900 60  0001 C CNN
+F 3 "" H 7700 7900 60  0001 C CNN
+	1    7700 7900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 7900 8200 7900
+Wire Wire Line
+	7500 7900 7200 7900
+Text Label 7200 7900 0    70   ~ 0
+GND_P
+Text Label 8000 7900 0    70   ~ 0
+VCC
+$Comp
+L Header_4 P1
+U 1 1 59756BB7
+P 9800 7800
+F 0 "P1" H 10129 7603 60  0000 L CNN
+F 1 "Header_4" H 10129 7497 60  0000 L CNN
+F 2 "parts:HDR1X4" H 9800 7800 60  0001 C CNN
+F 3 "" H 9800 7800 60  0000 C CNN
+	1    9800 7800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7900 9200 7900
+Wire Wire Line
+	9200 8000 9600 8000
+Wire Wire Line
+	9600 8100 9200 8100
+Wire Wire Line
+	9200 8200 9600 8200
+Text Label 9200 7900 0    70   ~ 0
+VCC
+Text Label 9200 8000 0    70   ~ 0
+GND_P
+Text Label 9200 8200 0    70   ~ 0
+SWCLK
+Text Label 9200 8100 0    70   ~ 0
+SWDIO
+$EndSCHEMATC

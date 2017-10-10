@@ -1,0 +1,13 @@
+(module HDR1X4 (layer F.Cu) (tedit 59740C3C)
+  (attr smd)
+  (fp_text reference P? (at 0 0) (layer B.SilkS) hide
+    (effects (font (thickness 0.05)) (justify mirror))
+  )
+  (fp_text value HDR1X4 (at 0 0) (layer B.SilkS) hide
+    (effects (font (thickness 0.05)) (justify mirror))
+  )
+  (pad 1 thru_hole rect (at 0 0 270) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Paste *.Mask))
+  (pad 2 thru_hole circle (at 0 2.54 270) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Paste *.Mask))
+  (pad 3 thru_hole circle (at 0 5.08 270) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Paste *.Mask))
+  (pad 4 thru_hole circle (at 0 7.62 270) (size 1.5 1.5) (drill 0.9) (layers *.Cu *.Paste *.Mask))
+)
