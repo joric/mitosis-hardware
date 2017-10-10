@@ -45,6 +45,12 @@ Do not check Exclude PCB edge layer from other layers.
 Then export Drill file, use Gerber in the Format section and check Minimal header.
 
 
+References
+----------
+
+* https://github.com/YCF/mitosis-hardware-mod
+* https://github.com/hanya/mitosis-hardware/tree/kicad
+
 
 
 
