@@ -13,7 +13,7 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
 * hanya - files taken from https://github.com/hanya/mitosis-hardware/tree/kicad (with a working network!)
 
-I actually recommed [this](https://github.com/hanya/mitosis-hardware/tree/kicad) project, it seems more accurate.
+I actually recommed hanya's project, it seems more accurate.
 
 Converting
 ----------
