@@ -14,6 +14,8 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 
 Mind that there's no network yet so it couldn't be autorouted.
 
+I actually recommed this project, it seems more accurate: https://github.com/hanya/mitosis-hardware/tree/kicad
+
 Converting
 ----------
 
