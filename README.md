@@ -11,7 +11,7 @@ NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RI
 * default - cleaned up autoconverted version, should be ready for export
 * YJ-14015-support - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
-* hanya - files taken from https://github.com/hanya/mitosis-hardware/tree/kicad (with a working network!)
+* hanya - files taken from [here](https://github.com/hanya/mitosis-hardware/tree/kicad) (with a working net)
 
 I actually recommed hanya's project, it seems more accurate.
 
@@ -49,9 +49,9 @@ Then export Drill file, use Gerber in the Format section and check Minimal heade
 References
 ----------
 
-* https://github.com/YCF/mitosis-hardware-mod
-* https://github.com/hanya/mitosis-hardware/tree/kicad
-
+* Acrylic case friendly (Altium): https://github.com/YCF/mitosis-hardware-mod
+* Hanya's port with a working net (KiCad): https://github.com/hanya/mitosis-hardware
+* A mitosis clone with more keys (KiCad) https://github.com/Durburz/interphase
 
 
 
