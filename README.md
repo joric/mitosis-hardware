@@ -54,7 +54,7 @@ References
 * [Hanya's port with a working net (KiCad)](https://github.com/hanya/mitosis-hardware)
 * [A mod with battery between the switches (video)](https://www.reddit.com/r/MechanicalKeyboards/comments/6tcctx/new_buildmitosisplusthank_you_reverse_bias/dlk3rg7/)
 * [Interphase mod with more keys (KiCad)](https://github.com/Durburz/interphase)
-
+* [Orthrus - wireless split, 56 keys, based on Mitosis and Atreus](https://github.com/bezmi/orthrus)
 
 
 
