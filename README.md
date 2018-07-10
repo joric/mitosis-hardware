@@ -6,15 +6,12 @@ A port of original Mitosis converted with [altium2kicad](https://github.com/thes
 Disclaimer
 ----------
 
-NEITHER OF THOSE LAYOUTS WERE ACTUALLY CHECKED IN PRODUCTION, USE AT YOUR OWN RISK!
-
+* hanya - files taken from [here](https://github.com/hanya/mitosis-hardware/tree/kicad) (with a working net), this is the most accurate
 * default - cleaned up autoconverted version, should be ready for export
 * big-pads - wider pads for YJ-14015 (still a bit unfinished check pads carefully!)
 * autoconverted - raw autoconverted board (misplaced labels, messed up outlines, etc.)
-* hanya - files taken from [here](https://github.com/hanya/mitosis-hardware/tree/kicad) (with a working net)
-* interphase - files taken from [here](https://github.com/Durburz/interphase) (with more keys)
-
-I actually recommend hanya's project, it seems more accurate.
+* interphase - KiCad files taken from [here](https://github.com/Durburz/interphase) (Mitosis with a little bit more keys), see [reddit][interphase]
+* orthrus - KiCad files taken from [here](https://github.com/bezmi/orthrus) (great Atreus62/Mitosis crossover by bezmi), see [reddit][orthrus]
 
 Converting
 ----------
@@ -53,8 +50,9 @@ References
 * [Acrylic case friendly mod (Altium)](https://github.com/YCF/mitosis-hardware-mod)
 * [Hanya's port with a working net (KiCad)](https://github.com/hanya/mitosis-hardware)
 * [A mod with battery between the switches (video)](https://www.reddit.com/r/MechanicalKeyboards/comments/6tcctx/new_buildmitosisplusthank_you_reverse_bias/dlk3rg7/)
-* [Interphase mod with more keys (KiCad)](https://github.com/Durburz/interphase)
+* [Interphase mod with more keys](https://github.com/Durburz/interphase)
 * [Orthrus - wireless split, 56 keys, based on Mitosis and Atreus](https://github.com/bezmi/orthrus)
 
 
-
+[orthrus]: https://www.reddit.com/r/MechanicalKeyboards/comments/8txry7/orthrus_wireless_split_56_keys_based_on_mitosis
+[interphase]: https://www.reddit.com/r/MechanicalKeyboards/comments/7ggeww/photos_interphase_finished_my_prototype/
